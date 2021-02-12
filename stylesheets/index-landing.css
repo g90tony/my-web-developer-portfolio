@@ -14,6 +14,7 @@
   height: 100vh;
   left: 0;
   top: 0;
+  /* box-shadow: 0 6px 20px 0 #cacfd6; */
   background-color: #0000006c;
   z-index: 3;
   border-radius: 0 10px 10px 0;
@@ -29,19 +30,20 @@
 
 .landing-info-heading {
   font-size: 32px;
-  padding: 10px;
+  padding: 0 20px;
+  margin: 0;
   text-align: end;
-  color: #324376;
+  color: #d6e5e3;
   font-weight: 700;
 }
 
 .landing-info-subheading {
   font-size: 18px;
   text-align: end;
-  padding: 10px;
+  padding: 0 20px;
   float: right;
   width: 75%;
-  color: #586ba4;
+  color: #cacfd6;
   font-weight: 600;
 }
 
@@ -52,4 +54,10 @@
   position: fixed;
   top: 0;
   left: 0;
+}
+
+.intext-anchor {
+  text-decoration: none;
+  color: #586ba4;
+  font-weight: 800;
 }
