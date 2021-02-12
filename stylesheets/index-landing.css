@@ -1,5 +1,6 @@
 .landing-container {
   display: flex;
+  margin: 0;
   flex-direction: row;
 }
 
@@ -10,18 +11,25 @@
   justify-content: center;
   position: fixed;
   width: 33.3%;
+  height: 100vh;
   left: 0;
   top: 0;
-  background-color: #a8ccd7;
+  background-color: #0000006c;
   z-index: 3;
+  border-radius: 0 10px 10px 0;
 }
 
 .landing-info-container {
   margin: auto 0;
+  width: 100%;
+  justify-content: end;
+
+  flex-direction: column;
 }
 
 .landing-info-heading {
   font-size: 32px;
+  padding: 10px;
   text-align: end;
   color: #324376;
   font-weight: 700;
@@ -30,6 +38,9 @@
 .landing-info-subheading {
   font-size: 18px;
   text-align: end;
+  padding: 10px;
+  float: right;
+  width: 75%;
   color: #586ba4;
   font-weight: 600;
 }
@@ -40,4 +51,5 @@
   width: 100vw;
   position: fixed;
   top: 0;
+  left: 0;
 }
