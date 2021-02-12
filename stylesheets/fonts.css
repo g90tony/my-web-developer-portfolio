@@ -4,66 +4,92 @@
 /* Body font style */
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+.heading-bold-xlg {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 48px;
+}
 .heading-bold-lg {
   font-family: "Josefin Sans", sans-serif;
+  font-size: 32px;
 }
 .heading-bold-md {
   font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
 }
 .heading-bold-sm {
   font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
 }
 
+.heading-regular-xlg {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 48px;
+}
 .heading-regular-lg {
   font-family: "Josefin Sans", sans-serif;
+  font-size: 32px;
 }
 .heading-regular-md {
   font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
 }
 .heading-regular-sm {
   font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
 }
 
+.heading-light-xlg {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 48px;
+}
 .heading-light-lg {
   font-family: "Josefin Sans", sans-serif;
+  font-size: 32px;
 }
 .heading-light-md {
   font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
 }
 .heading-light-sm {
   font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
 }
 
 .body-bold-lg {
   font-family: "Crimson Pro", serif;
-}
-
-.body-bold-lg {
-  font-family: "Crimson Pro", serif;
+  font-size: 14px;
 }
 .body-bold-md {
   font-family: "Crimson Pro", serif;
+  font-size: 13px;
 }
 .body-bold-sm {
   font-family: "Crimson Pro", serif;
+  font-size: 12px;
 }
 
 .body-regular-lg {
   font-family: "Crimson Pro", serif;
+  font-size: 14px;
 }
 .body-regular-md {
   font-family: "Crimson Pro", serif;
+  font-size: 13px;
 }
 .body-regular-sm {
   font-family: "Crimson Pro", serif;
+  font-size: 12px;
 }
 
 .body-light-lg {
   font-family: "Crimson Pro", serif;
+  font-size: 14px;
 }
 .body-light-md {
   font-family: "Crimson Pro", serif;
+  font-size: 13px;
 }
 .body-light-sm {
   font-family: "Crimson Pro", serif;
+  font-size: 12px;
 }
