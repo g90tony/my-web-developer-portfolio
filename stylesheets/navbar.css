@@ -1,13 +1,11 @@
-body {
-  height: 100vh;
-}
-
 .navbar {
   width: 100vw;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 5;
+  background-color: rgba(0, 0, 0, 0.609);
+  /* box-shadow: 0 3px 100px 0 #fe5f00; */
 }
 
 .nav-items-container {
