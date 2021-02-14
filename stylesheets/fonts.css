@@ -55,6 +55,10 @@
   font-size: 18px;
 }
 
+.body-bold-xlg {
+  font-family: "Crimson Pro", serif;
+  font-size: 20px;
+}
 .body-bold-lg {
   font-family: "Crimson Pro", serif;
   font-size: 14px;
@@ -68,6 +72,10 @@
   font-size: 12px;
 }
 
+.body-regular-xlg {
+  font-family: "Crimson Pro", serif;
+  font-size: 20px;
+}
 .body-regular-lg {
   font-family: "Crimson Pro", serif;
   font-size: 14px;
@@ -81,6 +89,10 @@
   font-size: 12px;
 }
 
+.body-light-xlg {
+  font-family: "Crimson Pro", serif;
+  font-size: 20px;
+}
 .body-light-lg {
   font-family: "Crimson Pro", serif;
   font-size: 14px;
