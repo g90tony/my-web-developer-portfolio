@@ -2,6 +2,7 @@
   display: flex;
   margin: 0;
   flex-direction: row;
+  position: static;
 }
 
 .side-glass-container {
@@ -9,12 +10,12 @@
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  position: fixed;
-  width: 33.3%;
-  height: 100vh;
+  width: 110vw;
+  height: 75vh;
   left: 0;
   top: 0;
-  /* box-shadow: 0 6px 20px 0 #cacfd6; */
+  margin: 0;
+  /* box-shadow: 0 6px 20px 0 rgba(61, 59, 59, 0.856); */
   background-color: #0000006c;
   z-index: 3;
   border-radius: 0 10px 10px 0;
@@ -32,18 +33,18 @@
   font-size: 32px;
   padding: 0 20px;
   margin: 0;
-  text-align: end;
-  color: #d6e5e3;
+  text-align: center;
+  color: #fe5f00;
   font-weight: 700;
 }
 
 .landing-info-subheading {
   font-size: 18px;
-  text-align: end;
+  text-align: center;
   padding: 0 20px;
-  float: right;
-  width: 75%;
-  color: #cacfd6;
+  margin: auto;
+  width: 50%;
+  color: #fffcf2;
   font-weight: 600;
 }
 
@@ -51,13 +52,20 @@
   display: flex;
   flex-direction: column;
   width: 100vw;
+  height: 100vh;
   position: fixed;
   top: 0;
+  z-index: -1;
   left: 0;
 }
 
+/* video {
+  width: 100vw;
+  height: 100vh;
+} */
+
 .intext-anchor {
   text-decoration: none;
-  color: #586ba4;
+  color: #fe5f00;
   font-weight: 800;
 }
