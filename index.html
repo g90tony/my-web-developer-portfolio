@@ -6,23 +6,64 @@
 
     <!-- style sheets imports -->
     <link rel="stylesheet" href="./stylesheets/index-landing.css" />
+    <link rel="stylesheet" href="./stylesheets/background-video.css" />
+    <link rel="stylesheet" href="./stylesheets/navbar.css" />
     <link rel="stylesheet" href="./stylesheets/fonts.css" />
 
     <title>Caleb Tony: Web Developer Portfolio</title>
   </head>
   <body>
+    <section id="nav">
+      <div class="navbar">
+        <ul class="nav-items-container">
+          <li class="nav-item">
+            <a
+              href="index.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="nav-link active body-regular-xlg"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="nav-link body-regular-xlg"
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="nav-link body-regular-xlg"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="background-video">
+      <video autoplay muted loop poster="./images/poster.jpg" id="myVideo">
+        <source
+          src="videos/pexels-pavel-danilyuk-5495900.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+
     <!-- Landing section with video background and glass container with text  -->
-    <section id="landing">
-      <div class="landing-container">
-        <div class="side-glass-container">
-          <div class="landing-info-container">
-            <p class="landing-info-heading heading-bold-xlg">
-              Hi, my name is <span>Caleb Tony</span>
-            </p>
-            <p class="landing-info-subheading body-regular-lg">
-              Welcome to my web development portfolio. Take a look around and
-              most importantly don't forget to take note that my email is
-              <strong>
+    <section class="landing-container">
+      <div class="glass-container">
+        <div class="landing-info-container">
+          <p class="landing-info-heading heading-bold-xlg">Caleb Tony</p>
+          <p class="landing-info-subheading body-lg-lg">
+            World Class Web Development Portfolio
+            <!-- <strong>
                 <a
                   href="mailto:calebmbugua@gmail.com"
                   class="body-regular-lg intext-anchor"
@@ -30,16 +71,12 @@
                 ></strong
               >. <br />
               <br />Use that information as you may <br />P.S. Just don't spam
-              me.
-            </p>
-          </div>
-        </div>
-        <div class="background-video">
-          <video autoplay muted loop id="myVideo">
-            <source src="videos/intro.mp4" type="video/mp4" />
-          </video>
+              me. -->
+          </p>
         </div>
       </div>
     </section>
+
+    section
   </body>
 </html>
