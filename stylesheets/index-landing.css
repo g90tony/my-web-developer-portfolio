@@ -1,39 +1,42 @@
 .landing-container {
   display: flex;
   margin: 0;
+  padding: 0;
   flex-direction: row;
+  height: 90vh;
 }
 
 .glass-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-content: center;
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  margin: 0;
-  padding: 0;
+  margin: auto;
+
   /* box-shadow: 0 6px 20px 0 rgba(61, 59, 59, 0.856); */
-  background-color: #00000065;
-  z-index: 3;
+  /* background-image: url("../images/pexels-magda-ehlers-1340185.jpg"); */
+  background-size: cover;
+  background-position: center center;
   /* border-radius: 0 10px 10px 0; */
 }
 
 .landing-info-container {
-  margin: auto 0;
-  width: 100%;
+  margin: auto;
+  width: 100vw;
+  margin: auto;
   justify-content: end;
 
   flex-direction: column;
 }
 
 .landing-info-heading {
-  font-size: 32px;
   padding: 0 20px;
-  margin: 0;
+  margin: 0 auto;
   text-align: center;
   color: #fe5f00;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .landing-info-subheading {
@@ -45,11 +48,6 @@
   color: #fffcf2;
   font-weight: 600;
 }
-
-/* video {
-  width: 100vw;
-  height: 100vh;
-} */
 
 .intext-anchor {
   text-decoration: none;
