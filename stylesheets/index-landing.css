@@ -2,19 +2,19 @@
   display: flex;
   margin: 0;
   flex-direction: row;
-  position: static;
 }
 
-.side-glass-container {
+.glass-container {
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  width: 110vw;
-  height: 75vh;
+  width: 100vw;
+  height: 100vh;
   margin: 0;
+  padding: 0;
   /* box-shadow: 0 6px 20px 0 rgba(61, 59, 59, 0.856); */
-  background-color: #0000006c;
+  background-color: #00000065;
   z-index: 3;
   /* border-radius: 0 10px 10px 0; */
 }
