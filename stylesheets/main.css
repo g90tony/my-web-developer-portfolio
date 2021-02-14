@@ -1,0 +1,32 @@
+body {
+  background-color: #fffcf2;
+  overflow-x: hidden;
+  margin: 0;
+  color: #252422;
+  width: 100vw;
+}
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.background-video video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 576px) {
+  .background-video video {
+    margin: auto 0;
+  }
+}
