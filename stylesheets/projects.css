@@ -85,8 +85,8 @@
 
 .project-infomation {
   width: 90%;
-  height: 100px;
-  overflow-y: hidden;
+  height: 75px;
+  overflow-y: auto;
   flex-wrap: nowrap;
   padding: 10px 20px;
 }
