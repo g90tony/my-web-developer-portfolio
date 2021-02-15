@@ -42,7 +42,7 @@
 .project-card {
   display: block;
   background-color: #fffcf2;
-  height: 450px;
+  height: 375px;
   width: 300px;
   border-radius: 10px;
   /* box-shadow: 0 2px 10px 0 #fffcf2a2; */
@@ -71,10 +71,15 @@
 }
 
 .project-image {
-  width: 90%;
+  width: 100%;
   border-radius: 10px;
-  margin: 10px 20px;
+  margin: 10px auto;
   border: #fe5f00 1px solid;
+}
+
+.project-image img {
+  width: 100%;
+  max-height: 100px;
 }
 
 .project-infomation {
