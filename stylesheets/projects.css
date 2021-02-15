@@ -1,7 +1,7 @@
 .projects-container {
   background-color: #fe5f00;
   width: 100vw;
-  margin: 40px 0;
+  padding: 40px 0;
   padding: 0 80px;
   height: max-content;
   z-index: 3;
